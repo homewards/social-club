@@ -10,6 +10,10 @@ font-family: 'Roboto', sans-serif;
 
 }
 
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+
 
 .w3-half img{margin-bottom:0px;margin-top:0px:margin-right:0px;margin-left:0px;padding:none;}
 
@@ -112,54 +116,13 @@ border: none;
 
 
 
-#bl1 {
-        -webkit-animation: rotation 300s infinite linear;
-        max-width: 100%;
-}
 
-#bl2 {
-        -webkit-animation: rotation 100s infinite linear;
-        max-width: 100%;
-}
 
-#bl3 {
-        -webkit-animation: rotation 500s infinite linear;
-        max-width: 100%;
-}
-
-#bl4 {
-        -webkit-animation: rotation 300s infinite linear;
-        max-width: 100%;
-}
-
-#bl5 {
-        -webkit-animation: rotation 300s infinite linear;
-        max-width: 100%;
+@media only screen and (max-width: 768px) {
+#desktop {
+display: none;
 }
 
 
 
-@-webkit-keyframes rotation {
-        from {
-                -webkit-transform: rotate(0deg);
-        }
-        to {
-                -webkit-transform: rotate(359deg);
-        }
-}
 
-
-
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-
-@media all and (max-width: 959px) {
-    #div1 {display:block;}
-    #div2 {display:block;}
-    #div3 {display:block;}
-    #div4 {display:block;}
-    #div5 {display:block;}
-    
-}
